@@ -67,8 +67,8 @@ jobs:
 
               markdown += `${title}\n\n`;
 
-              if (weeks[week]) {
-                const lessons = veckor[vecka].sort((a, b) => a.datum.localeCompare(b.datum));
+              if (weeks[weekNr]) {
+                const lessons = weeks[weekNr].sort((a, b) => a.date.localeCompare(b.date));
                 for (const lesson of lessons) {
                   markdown += `- **${lesson.weekday} ${lesson.date}** – [${lesson.name}](${lesson.link}) – ${lesson.description}\n`;
                 }
