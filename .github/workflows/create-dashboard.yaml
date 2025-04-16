@@ -1,4 +1,4 @@
-name: Generera GitHub Pages-översikt
+name: Skapa lektionsöversikt
 
 on:
   schedule:
@@ -6,13 +6,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  oversikt:
+  create-dashboard:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generera lektionsöversikt
+      - name: Create dashboard
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.PA_TOKEN }}
@@ -83,7 +83,7 @@ jobs:
             fs.mkdirSync("docs", { recursive: true });
             fs.writeFileSync("docs/index.md", markdown);
 
-      - name: Commit och pusha ändringar
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
