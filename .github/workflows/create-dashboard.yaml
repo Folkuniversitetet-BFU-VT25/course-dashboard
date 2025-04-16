@@ -42,7 +42,7 @@ jobs:
             const weeks = {};
 
             for (const repo of repos) {
-              const match = repo.name.match(/lektion-(\d{2})/);
+              const match = repo.name.match(/lektion-/);
               if (!match) continue;
 
               const weekNumber = match[1];
