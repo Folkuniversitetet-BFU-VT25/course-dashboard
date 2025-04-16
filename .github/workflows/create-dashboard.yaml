@@ -1,0 +1,92 @@
+name: Generera GitHub Pages-översikt
+
+on:
+  schedule:
+    - cron: "0 4 * * *" # Körs varje natt
+  workflow_dispatch:
+
+jobs:
+  oversikt:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generera lektionsöversikt
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.PA_TOKEN }}
+          script: |
+            const org = "Folkuniversitetet-BFU-VT25";
+            const repos = await github.paginate(
+              github.rest.repos.listForOrg,
+              { org, per_page: 100 },
+              res => res.data.filter(r => r.name.startsWith("lektion-"))
+            );
+
+            const MILLISECONDS_IN_DAY = 86400000;
+
+            function getCurrentWeek(date) {
+              const copyDate = new Date(date.getTime());
+              copyDate.setUTCDate(copyDate.getUTCDate() + 4 - (copyDate.getUTCDay() || 7));
+              const startOfTheYear = new Date(Date.UTC(copyDate.getUTCFullYear(), 0, 1));
+              const weekNumber = Math.ceil((((copyDate - startOfTheYear) / MILLISECONDS_IN_DAY) + 1) / 7); // 
+              return weekNumber;
+            }
+
+            const today = new Date();
+            const currentWeek = getCurrentWeek(today);
+            const weeks = {};
+
+            for (const repo of repos) {
+              const match = repo.name.match(/lektion-(\d{2})/);
+              if (!match) continue;
+
+              const weekNumber = match[1];
+              const date = new Date(dateString);
+              const week = getCurrentWeek(date);
+
+              if (week < 17 || week > 24) continue;
+
+              if (!weeks[week]) weeks[week] = [];
+              weeks[week].push({
+                date: weekNumber,
+                weekday: date.toLocaleDateString('sv-SE', { weekday: 'long' }),
+                name: repo.name,
+                link: `https://github.com/${org}/${repo.name}`,
+                description: repo.description || "–"
+              });
+            }
+
+            let markdown = `# 📚 Lektionsöversikt VT25\n\n`;
+
+            for (let weekNr = 17; weekNr <= 24; weekNr++) {
+              const title = weekNr === currentWeek
+                ? `## ✅ Pågående: Vecka ${weekNr}`
+                : `## Vecka ${weekNr}`;
+
+              markdown += `${title}\n\n`;
+
+              if (weeks[week]) {
+                const lessons = veckor[vecka].sort((a, b) => a.datum.localeCompare(b.datum));
+                for (const lesson of lessons) {
+                  markdown += `- **${lesson.weekday} ${lesson.date}** – [${lesson.name}](${lesson.link}) – ${lesson.description}\n`;
+                }
+              } else {
+                markdown += "_(Inga lektioner denna vecka än)_\n";
+              }
+
+              markdown += `\n---\n\n`;
+            }
+
+            const fs = require("fs");
+            fs.mkdirSync("docs", { recursive: true });
+            fs.writeFileSync("docs/index.md", markdown);
+
+      - name: Commit och pusha ändringar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/index.md
+          git commit -m "Updates course dashboard 📚" || echo "Nothing to commit"
+          git push
