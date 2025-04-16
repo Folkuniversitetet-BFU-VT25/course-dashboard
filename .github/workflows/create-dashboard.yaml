@@ -49,8 +49,6 @@ jobs:
               const date = new Date(dateString);
               const week = getCurrentWeek(date);
 
-              if (week < 17 || week > 24) continue;
-
               if (!weeks[week]) weeks[week] = [];
               weeks[week].push({
                 date: dateString,
