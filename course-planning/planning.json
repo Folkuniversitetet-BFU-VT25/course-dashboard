@@ -1,12 +1,12 @@
 {
   "17": {
-    "content": "- Genomgång av BFU-upplägget *Introduktion till webbvärlden (stacken) - Utvecklingsverktyg och miljö - Grunder i GitHub *Grunder i HTML"
+    "content": "- Genomgång av BFU-upplägget\n - Introduktion till webbvärlden (stacken)\n - Utvecklingsverktyg och miljö\n - Grunder i GitHub *Grunder i HTML"
   },
-  "18": { "content": "- Grunder i CSS - CSS layout med flexbox" },
-  "19": { "content": "- Datalogiskt tänkande - Pseudokod" },
-  "20": { "content": "- JS datatyper - JS funktioner - JS loopar" },
+  "18": { "content": "- Grunder i CSS\n - CSS layout med flexbox" },
+  "19": { "content": "- Datalogiskt tänkande\n - Pseudokod" },
+  "20": { "content": "- JS datatyper\n - JS funktioner\n - JS loopar" },
   "21": {
-    "content": "- JS kodflöde - JS datastrukturer (array + objekt) - JS datamanipulering"
+    "content": "- JS kodflöde\n - JS datastrukturer (array + objekt)\n - JS datamanipulering"
   },
   "22": { "content": "- JS events och DOM interaktion" },
   "23": { "content": "- Asynkron JS och API-anrop" },
