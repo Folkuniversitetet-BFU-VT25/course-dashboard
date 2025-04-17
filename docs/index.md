@@ -11,7 +11,7 @@
 
 ### Lektionsmaterial
 
-- **tisdag** – [lektion-2025-04-22](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-04-22) – –
+- **tisdag** – [lektion-2025-04-22](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-04-22) – intro till BFU, Github och intro till HTML
 
 ## Vecka 18
 
