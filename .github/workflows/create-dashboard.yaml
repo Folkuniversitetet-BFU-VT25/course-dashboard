@@ -59,6 +59,7 @@ jobs:
             }
 
             let markdown = `# 📚 Lektionsöversikt VT25\n\n`;
+            const coursePlanning = JSON.parse(fs.readFileSync('course-planning/planning.json', 'utf8'));
 
             for (let weekNr = 17; weekNr <= 24; weekNr++) {
               const title = weekNr === currentWeek
@@ -66,17 +67,18 @@ jobs:
                 : `## Vecka ${weekNr}`;
 
               markdown += `${title}\n\n`;
+              markdown += `Veckans innehåll: \n ${coursePlanning[weekNr]}\n\n`
 
               if (weeks[weekNr]) {
                 const lessons = weeks[weekNr].sort((a, b) => a.date.localeCompare(b.date));
                 for (const lesson of lessons) {
-                  markdown += `- **${lesson.weekday} ${lesson.date}** – [${lesson.name}](${lesson.link}) – ${lesson.description}\n`;
+                  markdown += `- **${lesson.weekday}** – [${lesson.name}](${lesson.link}) – ${lesson.description}\n`;
                 }
               } else {
                 markdown += "_(Inga lektioner denna vecka än)_\n";
               }
 
-              markdown += `\n---\n\n`;
+              markdown += `\n`;
             }
 
             const fs = require("fs");
