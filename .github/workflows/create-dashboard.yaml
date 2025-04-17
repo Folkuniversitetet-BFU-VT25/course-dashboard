@@ -20,6 +20,7 @@ jobs:
         with:
           github-token: ${{ secrets.PA_TOKEN }}
           script: |
+            const fs = require("fs");
             const org = "Folkuniversitetet-BFU-VT25";
             const repos = await github.paginate(
               github.rest.repos.listForOrg,
@@ -81,7 +82,6 @@ jobs:
               markdown += `\n`;
             }
 
-            const fs = require("fs");
             fs.mkdirSync("docs", { recursive: true });
             fs.writeFileSync("docs/index.md", markdown);
 
