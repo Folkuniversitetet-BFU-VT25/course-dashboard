@@ -68,7 +68,7 @@ jobs:
                 : `## Vecka ${weekNr}`;
 
               markdown += `${title}\n\n`;
-              markdown += `Veckans innehåll: \n ${coursePlanning[weekNr]}\n\n`
+              markdown += `Veckans innehåll: \n ${coursePlanning[weekNr].content}\n\n`
 
               if (weeks[weekNr]) {
                 const lessons = weeks[weekNr].sort((a, b) => a.date.localeCompare(b.date));
