@@ -77,7 +77,7 @@ jobs:
                   markdown += `- **${lesson.weekday}** – [${lesson.name}](${lesson.link}) – ${lesson.description}\n`;
                 }
               } else {
-                markdown += "_(Inga lektioner denna vecka än)_\n";
+                markdown += "_(Inget lektionsmaterial är publicerat denna vecka än)_\n";
               }
 
               markdown += `\n`;
