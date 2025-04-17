@@ -68,7 +68,8 @@ jobs:
                 : `## Vecka ${weekNr}`;
 
               markdown += `${title}\n\n`;
-              markdown += `Veckans innehåll: \n ${coursePlanning[weekNr].content}\n\n`
+              markdown += `#### Veckans innehåll: \n ${coursePlanning[weekNr].content}\n\n`
+              markdown += `#### Lektionsmaterial`
 
               if (weeks[weekNr]) {
                 const lessons = weeks[weekNr].sort((a, b) => a.date.localeCompare(b.date));
@@ -95,8 +96,3 @@ jobs:
           git add docs/index.md
           git commit -m "Updates course dashboard 📚" || echo "Nothing to commit"
           git push
-      # - name: Push generated dashboard to GitHub Pages
-      #   uses: JamesIves/github-pages-deploy-action@v4.2.2
-      #   with:
-      #     branch: main
-      #     folder: docs
