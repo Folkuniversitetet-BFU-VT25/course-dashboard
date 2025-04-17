@@ -21,7 +21,7 @@
 
 ### Lektionsmaterial
 
-_(Inga lektioner denna vecka än)_
+_(Inget lektionsmaterial är publicerat denna vecka än)_
 
 ## Vecka 19
 
@@ -31,7 +31,7 @@ _(Inga lektioner denna vecka än)_
 
 ### Lektionsmaterial
 
-- **måndag** – [lektion-2025-05-05](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-05) – –
+_(Inget lektionsmaterial är publicerat denna vecka än)_
 
 ## Vecka 20
 
@@ -42,7 +42,7 @@ _(Inga lektioner denna vecka än)_
 
 ### Lektionsmaterial
 
-_(Inga lektioner denna vecka än)_
+_(Inget lektionsmaterial är publicerat denna vecka än)_
 
 ## Vecka 21
 
@@ -53,7 +53,7 @@ _(Inga lektioner denna vecka än)_
 
 ### Lektionsmaterial
 
-_(Inga lektioner denna vecka än)_
+_(Inget lektionsmaterial är publicerat denna vecka än)_
 
 ## Vecka 22
 
@@ -62,7 +62,7 @@ _(Inga lektioner denna vecka än)_
 
 ### Lektionsmaterial
 
-_(Inga lektioner denna vecka än)_
+_(Inget lektionsmaterial är publicerat denna vecka än)_
 
 ## Vecka 23
 
@@ -71,7 +71,7 @@ _(Inga lektioner denna vecka än)_
 
 ### Lektionsmaterial
 
-_(Inga lektioner denna vecka än)_
+_(Inget lektionsmaterial är publicerat denna vecka än)_
 
 ## Vecka 24
 
@@ -80,5 +80,5 @@ _(Inga lektioner denna vecka än)_
 
 ### Lektionsmaterial
 
-_(Inga lektioner denna vecka än)_
+_(Inget lektionsmaterial är publicerat denna vecka än)_
 
