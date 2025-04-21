@@ -1,6 +1,6 @@
 # 📚 Lektionsöversikt VT25
 
-## Vecka 17
+## ✅ Pågående: Vecka 17
 
 ### Veckans innehåll: 
  - Genomgång av BFU-upplägget
