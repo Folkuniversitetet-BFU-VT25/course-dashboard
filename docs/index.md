@@ -1,6 +1,6 @@
 # 📚 Lektionsöversikt VT25
 
-## ✅ Pågående: Vecka 17
+## Vecka 17
 
 ### Veckans innehåll: 
  - Genomgång av BFU-upplägget
@@ -14,7 +14,7 @@
 - **tisdag** – [lektion-2025-04-22](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-04-22) – intro till BFU, Github
 - **onsdag** – [lektion-2025-04-23](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-04-23) –  Intro till HTML
 
-## Vecka 18
+## ✅ Pågående: Vecka 18
 
 ### Veckans innehåll: 
  - Grunder i CSS
