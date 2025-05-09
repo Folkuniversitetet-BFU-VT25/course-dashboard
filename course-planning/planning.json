@@ -4,9 +4,9 @@
   },
   "18": { "content": "- Grunder i CSS\n - CSS layout med flexbox" },
   "19": { "content": "- Datalogiskt tänkande\n - Pseudokod" },
-  "20": { "content": "- JS datatyper\n - JS funktioner\n - JS loopar" },
+  "20": { "content": "- JS datatyper\n - JS funktioner\n" },
   "21": {
-    "content": "- JS kodflöde\n - JS datastrukturer (array + objekt)\n - JS datamanipulering"
+    "content": "- JS kodflöde\n - JS datastrukturer (array + objekt)\n - JS loopar"
   },
   "22": { "content": "- JS events och DOM interaktion" },
   "23": { "content": "- Asynkron JS och API-anrop" },
