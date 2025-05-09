@@ -33,6 +33,7 @@
 ### Lektionsmaterial
 
 - **måndag** – [lektion-2025-05-05](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-05) – intro till datalogiskt tänkande och pseudokod
+- **torsdag** – [lektion-2025-05-08](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-08) – Genomgång av Poster Shop
 
 ## Vecka 20
 
