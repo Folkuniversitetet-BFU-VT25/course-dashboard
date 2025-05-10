@@ -40,18 +40,18 @@
 ### Veckans innehåll: 
  - JS datatyper
  - JS funktioner
- - JS loopar
+
 
 ### Lektionsmaterial
 
-_(Inget lektionsmaterial är publicerat denna vecka än)_
+- **måndag** – [lektion-2025-05-12](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-12) – –
 
 ## Vecka 21
 
 ### Veckans innehåll: 
  - JS kodflöde
  - JS datastrukturer (array + objekt)
- - JS datamanipulering
+ - JS loopar
 
 ### Lektionsmaterial
 
