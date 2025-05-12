@@ -24,7 +24,7 @@
 
 - **måndag** – [lektion-2025-04-28](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-04-28) – –
 
-## ✅ Pågående: Vecka 19
+## Vecka 19
 
 ### Veckans innehåll: 
  - Datalogiskt tänkande
@@ -35,7 +35,7 @@
 - **måndag** – [lektion-2025-05-05](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-05) – intro till datalogiskt tänkande och pseudokod
 - **torsdag** – [lektion-2025-05-08](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-08) – Genomgång av Poster Shop
 
-## Vecka 20
+## ✅ Pågående: Vecka 20
 
 ### Veckans innehåll: 
  - JS datatyper
