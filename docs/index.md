@@ -44,7 +44,8 @@
 
 ### Lektionsmaterial
 
-- **måndag** – [lektion-2025-05-12](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-12) – –
+- **måndag** – [lektion-2025-05-12](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-12) – Introduktion till JS, variabler, villkor och funktioner
+- **tisdag** – [lektion-2025-05-13](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-13) – BMI-räknaren
 
 ## Vecka 21
 
