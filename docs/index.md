@@ -56,7 +56,7 @@
 
 ### Lektionsmaterial
 
-- **måndag** – [lektion-2025-05-19](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-19) – –
+- **måndag** – [lektion-2025-05-19](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-19) – Repetition med sten, sax och påse. Introduktion till arrayer, objekt och loopar
 
 ## Vecka 22
 
