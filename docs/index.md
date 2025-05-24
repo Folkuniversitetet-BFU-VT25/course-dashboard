@@ -65,7 +65,7 @@
 
 ### Lektionsmaterial
 
-_(Inget lektionsmaterial är publicerat denna vecka än)_
+- **måndag** – [lektion-2025-05-26](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-26) – Genomgång av DOM interaktion och events samt objekt
 
 ## Vecka 23
 
