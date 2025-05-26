@@ -47,7 +47,7 @@
 - **måndag** – [lektion-2025-05-12](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-12) – Introduktion till JS, variabler, villkor och funktioner
 - **tisdag** – [lektion-2025-05-13](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-13) – BMI-räknaren
 
-## ✅ Pågående: Vecka 21
+## Vecka 21
 
 ### Veckans innehåll: 
  - JS kodflöde
@@ -58,7 +58,7 @@
 
 - **måndag** – [lektion-2025-05-19](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-19) – Repetition med sten, sax och påse. Introduktion till arrayer, objekt och loopar
 
-## Vecka 22
+## ✅ Pågående: Vecka 22
 
 ### Veckans innehåll: 
  - JS events och DOM interaktion
