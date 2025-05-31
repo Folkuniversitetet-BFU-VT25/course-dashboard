@@ -74,7 +74,7 @@
 
 ### Lektionsmaterial
 
-_(Inget lektionsmaterial är publicerat denna vecka än)_
+- **måndag** – [lektion-2025-06-02](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-06-02) – Genomgång av asynkron JS och API-anrop
 
 ## Vecka 24
 
