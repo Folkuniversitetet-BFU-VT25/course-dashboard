@@ -58,7 +58,7 @@
 
 - **måndag** – [lektion-2025-05-19](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-19) – Repetition med sten, sax och påse. Introduktion till arrayer, objekt och loopar
 
-## ✅ Pågående: Vecka 22
+## Vecka 22
 
 ### Veckans innehåll: 
  - JS events och DOM interaktion
@@ -67,7 +67,7 @@
 
 - **måndag** – [lektion-2025-05-26](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-26) – Genomgång av DOM interaktion och events samt objekt
 
-## Vecka 23
+## ✅ Pågående: Vecka 23
 
 ### Veckans innehåll: 
  - Asynkron JS och API-anrop
