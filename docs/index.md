@@ -67,7 +67,7 @@
 
 - **måndag** – [lektion-2025-05-26](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-05-26) – Genomgång av DOM interaktion och events samt objekt
 
-## ✅ Pågående: Vecka 23
+## Vecka 23
 
 ### Veckans innehåll: 
  - Asynkron JS och API-anrop
@@ -76,7 +76,7 @@
 
 - **måndag** – [lektion-2025-06-02](https://github.com/Folkuniversitetet-BFU-VT25/lektion-2025-06-02) – Genomgång av asynkron JS och API-anrop
 
-## Vecka 24
+## ✅ Pågående: Vecka 24
 
 ### Veckans innehåll: 
  - Examination
